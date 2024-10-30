@@ -1,0 +1,43 @@
+.volvo-container{
+    padding: 40px;
+    padding-top: 100px;
+    background-color: rgb(250, 249, 249);
+    
+}
+.volvo-container h1{
+    text-align: center;
+}
+.volvo-container img{
+    width: 100%;
+    padding-top: 50px;
+}
+.main-section{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    line-height: 20px;
+    text-align: justify;
+    gap: 20px;
+    
+}
+.main-section p{
+    font-size: 17px;
+    color: rgb(95, 94, 94);
+}
+.learn-more-volvo{
+    border: 1px solid rgb(30, 75, 126);
+    border-radius: 3px;
+    padding-inline: 50px;
+    width: max-content;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 40px;
+    padding-top:15px ;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: rgb(42, 96, 157);
+}
+.learn-more-volvo:hover{
+    background-color: rgb(30, 75, 126);
+    color: white;
+}

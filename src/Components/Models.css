@@ -1,0 +1,79 @@
+.model-container{
+    text-align: center;
+    margin: 80px;
+}
+.model-container h1{
+    text-align: center;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 10px;
+}
+.total:hover{
+    cursor: pointer;
+}
+.description{
+    text-align: start;
+    padding-left: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.description button{
+    position: absolute;
+    top: 110px;
+    left: 490px;
+    padding: 3px; 
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(247, 244, 244);
+}
+.description ul{
+    list-style: none;
+    display: flex;
+    gap: 120px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.description ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.description p:hover{
+    cursor: pointer;
+    color: rgb(47, 133, 184) ;
+}
+.card-item {
+    overflow: hidden;  
+    width: 300px; 
+    cursor: pointer; 
+  }
+  .image{
+    width: 100%;
+    cursor: pointer; 
+  }
+  .image img:hover {
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out; 
+    transform: scale(1.2);
+  }
+  .compare-button{
+    border: 1px solid rgb(42, 96, 157);
+    border-radius: 5px;
+    text-align: center;
+    padding-inline: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: max-content;
+    font-weight: bolder;
+    color: rgb(42, 96, 157);
+    margin-left: 45%;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .compare-button:hover{
+    background-color: rgb(241, 247, 253);
+  }

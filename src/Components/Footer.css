@@ -1,0 +1,46 @@
+.footer-container{
+     padding-top: 30px; 
+     padding-bottom: 8%; 
+     background-color:rgb(250, 249, 249);
+}
+.footer-container b:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-head{
+    font-weight: bold;
+    color: rgb(131, 130, 130);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 25px;
+    line-height: 35px;
+
+}
+.footer-head p{
+    font-size: 12px;
+}
+.footer-head a{
+    text-decoration: none;
+     color: black; 
+     padding-top: 20px;
+}
+.footer-head a:hover{
+    text-decoration: underline;
+}
+
+.location{
+     font-weight: bold;
+     color: black; 
+     padding-top: 20px;
+}
+.icons{
+    padding-top: 15px;
+     padding-bottom: 15px;
+}
+.copyright{
+    padding-top: 15px; 
+    font-weight: lighter; 
+    font-size: small;
+    color: rgb(104, 102, 102);
+}

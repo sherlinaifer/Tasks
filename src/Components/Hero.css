@@ -1,0 +1,29 @@
+.Hero-container video{
+    width: 100%;
+}
+.Hero-container{
+    position: relative;
+}
+.Hero-container p{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+.Hero-container button{
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    border: none;
+    border: none;
+    padding-inline:40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.Hero-container button:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
